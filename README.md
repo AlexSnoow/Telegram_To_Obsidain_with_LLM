@@ -1,10 +1,6 @@
 my_project/
 ├── src/                  # Основной код
-│   ├── __init__.py
-│   ├── main.py           # Точка входа
-│   └── modules/          # Логические модули
-│       ├── auth.py
-│       └── database.py
+
 │
 ├── tests/                # Тесты
 │   ├── __init__.py

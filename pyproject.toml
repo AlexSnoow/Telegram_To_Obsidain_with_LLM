@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telegram-to-obsidian"
+version = "0.1.0"
+description = "Sync Telegram to Obsidian with LLM"
+requires-python = ">=3.8"
+dependencies = [
+    "python-dotenv>=1.0.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[dependency-groups]
+dev = [
+    "black>=24.8.0",
+    "ruff>=0.14.2",
+]
