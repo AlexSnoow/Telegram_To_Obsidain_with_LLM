@@ -1,4 +1,4 @@
-from youtube_info import get_video_info
+from src.youtube_info import get_video_info
 
 url = "https://youtube.com/shorts/FrHBPT_p6h8?si=lfSG1POzNSEaIelH"
 info = get_video_info(url)

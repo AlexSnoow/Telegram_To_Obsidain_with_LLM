@@ -9,6 +9,7 @@ description = "Sync Telegram to Obsidian with LLM"
 requires-python = ">=3.8"
 dependencies = [
     "python-dotenv>=1.0.1",
+    "requests>=2.32.4",
     "yt-dlp>=2024.10.22",
 ]
 
